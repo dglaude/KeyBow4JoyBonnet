@@ -28,6 +28,22 @@ This piece of software (KeyBow4JoyBonnet) fix the first problem by replacing the
 
 Just follow the official Keybow micro-SD card installation. Once you have everything setup, you can replace the "keybow" binary by a modified version.
 
+# Using JoyBonnet to play Pico-8 on a MAC
+
+If you want to play Pico-8 (you need a licence) on your MAC and run games from the JoyBonnet, then this is possible with the file pico8b.lua in the layouts folder of you microSD card.
+
+Explanation of the mapping between JoyBonnet and Pico-8
+
+- START => Launch the Pico8 game environment
+- SELECT => Type "splorer" to select game
+- Joystic => UP/DOWN/LEFT/RIGHT
+- Button A => X
+- Button B => W
+- Button X => Mute
+- Button Y => Reload the current card 
+- Button 1 => ESC key
+- Button 2 => Quit Pico8
+
 # Source code, Copyright, Licence, Credit
 
 Original code is copyrighted 2018 by Pimoroni and under MIT Licence.
